@@ -1,0 +1,24 @@
+{
+  "name": "TEMPer Humidity Sensor",
+  "version": "1.0.0",
+  "slug": "hassio-temper-humidity-sensor",
+  "description": "Query a TEMPer sensor to fetch its current humidity",
+  "url": "https://github.com/rmtsrc/hassio-addons",
+  "panel_icon": "water-percent",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "once",
+  "boot": "manual",
+  "host_network": true,
+  "apparmor": true,
+  "host_dbus": true,
+  "privileged": ["SYS_ADMIN"],
+  "full_access": true,
+  "init": false,
+  "stage": "experimental",
+  "options": {
+    "webHookId": ""
+  },
+  "schema": {
+    "webHookId": "str"
+  }
+}
