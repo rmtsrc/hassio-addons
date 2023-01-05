@@ -10,7 +10,6 @@ To use this repository with your own Home Assistant installation follow [the off
 
 ## Provided add-ons
 
-* [hassio-temper-humidity](hassio-temper-humidity) - Query a TEMPer sensor to fetch its current humidity
 * [hassio-wifi-bridge](hassio-wifi-bridge) - Use your Home Assistant device as an ethernet to Wi-Fi bridge
 
 ## License
